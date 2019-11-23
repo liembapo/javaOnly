@@ -1,4 +1,4 @@
-package arrays.twodimension;
+package arrays.multiDimention;
 
 import java.util.Arrays;
 
