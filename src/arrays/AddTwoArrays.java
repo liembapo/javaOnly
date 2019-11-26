@@ -9,15 +9,20 @@ import java.util.Arrays;
 public class AddTwoArrays {
     public static void main(String[] args) {
 
-        int []arrayOne = {3,2,6,43,7,20};
-        int []arrayTwo = {2,7,-10,10,-5,2};
+//        int[] arrayOne = {3, 2, 6, 43, 7, 20};
+        int[] arr = {-9, 7, -10, 10, -5, 2,9,1,800};
 
-        int []sumArrays = new int[arrayOne.length];
+        int temp;
+        for (int i = 0; i <= arr.length - 1; i++) {
+            for (int j = 1; j <= arr.length - 1; j++) {
+                if (arr[j] < arr[j - 1]) {
+                    temp = arr[j - 1];
+                    arr[j - 1] = arr[j];
+                    arr[j] = temp;
+                }
 
-        for(int i = 0; i <arrayOne.length;i++){
-            sumArrays[i] = arrayOne[i]+arrayTwo[i];
+            }
         }
-        System.out.println(Arrays.toString(sumArrays));
-
+        System.out.println(Arrays.toString(arr));
     }
 }

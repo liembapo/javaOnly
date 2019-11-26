@@ -1,6 +1,9 @@
 package loops;
 
+import classAndObject.constructor.Item;
+
 import java.util.*;
+
 
 public class StringMiddleOne {
     public static void main(String[] args) {
@@ -19,4 +22,6 @@ public class StringMiddleOne {
             System.out.println("not a valid character");
         }
     }
+
+
 }

@@ -1,0 +1,153 @@
+LOOP, CLASS AND OBJECT (BOBBY'S MENTORING) ,November 27 2019.
+
+LOOP
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+	What is Loop
+
+	--> The Java for loop is a control flow statement that iterates a part of the programs multiple times. 
+	 	The Java while loop is a control flow statement that executes a part of the programs repeatedly on the basis of given boolean condition.
+	 	Loops are what make computers interesting machines. Without loops, computers would just be really sophisticated adding machines, and not much else.
+	--> Why we use loop?
+		because its helps us executing one or more statements up to a desired number of times.(saving our time rather than write it manually)
+
+	there are some loop which are we know :
+
+	1.for loop/traditional loop
+	2.while loop
+	3.do while loop
+	4.for each (for array and class collection only)
+
+---------------------------------------------
+	1. Traditional for loop:
+	   
+	   When you know exactly how many times you want to loop through a block of code, use the for loop instead of a while loop:
+		
+		Syntax: 
+			
+			for(dataType var ; condition ; Step){
+				
+				action/statement
+			}
+
+		- when you need variable to help you to do some action, or pointing the index of an array or a string
+		- the condition required false, in order to stop the loop
+		- you can use variable as many as you want but should be in 1 datatype
+		- you can change the flow of the loop by continue, break and return.
+				> 	continue:
+					ask you to go to the next itineration and ignoring the rest of the statement on that loop.
+				>	break:
+					force you to go out from the loop.if its on inner loop it will bring you to outer loop. if there only 1 loop it will bring you out from the loop
+				>	return:
+					force you to stop the program straight away.
+		- when we pointing for some data,object or element which is doesnt exist,the entire program will be shut down (for this case we will learn about execption).
+	
+	2. 	While loop:
+		
+		Syntax:
+		When you are not sure how many times your code will be iterated.
+			
+			while(condition){
+
+				action/Statement
+
+			}
+
+		-  it will check the condition in the begining 
+		-  while loop allows us to specify that a certain statement is to be executed repetitively until the loop condition is false, but we have to inisiate some    	   variable in order the code to go through the loop.
+		-  while loop is similar like for loop, only the structure is different
+
+	
+	3. 	Do while loop:
+		
+		Syntax :
+
+		do{
+			action/statement
+
+		}while(condition);
+
+	-	at least the loop will be executed 1 time.
+	-	it will check the condition in the end of body
+	-	iteration ends when condition met the false statement.
+
+	4. for each loop
+
+		Syntax :
+
+		for(dataType varName : ArrayName){
+			
+			action/statement
+
+		}
+		
+		- used when we dont need to read the index.
+		- used when we dont need any helper variable to run the code.
+		- we couldn't change the array but we can take the value, or just check the value.
+		- It’s commonly used to iterate over an array or a Collections class (eg, ArrayList)
+
+
+----------------------------------------------------------------------------------------------------------------------------------------------------------
+
+CLASS AND OBJECT
+
+	-->	a class is a programming language construct that is used as a blueprint to create objects.
+		This blueprint includes attributes and methods that the created objects all share.
+	
+	Class
+	-	when we decide to create a new class mean we are creating a new data type
+	-	Usually, a class represents a person, place, or thing - it is an abstraction of a concept within a computer program.
+		its like drawing on canvas for artist , but its like describing something(object) on virtual page(class) for programmer.
+	-	Class has instance variable, method described here , and constructor (depend on the programmer needs).
+	-	There are some type of class but so far we learn only regular Classes
+	-	When you're going to use this class on different package, you have to import this class.
+	- 	by default this class works only within its package.
+
+	Object
+	-	creating object on java, simply mean describing a real object on virtual page
+	- 	Object normally always has a instance variable which is always following the object once its created on main class
+	-	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+		https://www.jetbrains.com/help/idea/symbols.html								// list of icon on java
+
+		https://www.jetbrains.com/help/idea/regular-expression-syntax-reference.html  	// list of Regular Expression Syntax Reference
+
+		https://en.wikipedia.org/wiki/Collection_(abstract_data_type)					// know more about collection

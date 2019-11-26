@@ -1,7 +1,5 @@
 package arrays;
 
-import java.util.Arrays;
-
 public class ReversingWord {
     public static void main(String[] args) {
         String words = "It started to snow in Chicago";         // reverse it

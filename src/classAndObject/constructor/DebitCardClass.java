@@ -1,4 +1,4 @@
-package arrays.multiDimention;
+package classAndObject.constructor;
 
 public class DebitCardClass {
     long cardNumber;

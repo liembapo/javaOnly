@@ -20,5 +20,9 @@ public class EvenNumbers {
             }
         }
         System.out.println(Arrays.toString(evenNumbers));
+
+        String a = "bobby";
+        String [] b = a.split("o",2);
+        System.out.println();
     }
 }

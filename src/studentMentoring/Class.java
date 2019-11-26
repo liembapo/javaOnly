@@ -1,4 +1,5 @@
 package studentMentoring;
 
-public class Menu {
+public class Class {
+
 }

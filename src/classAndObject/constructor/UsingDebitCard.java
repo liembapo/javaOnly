@@ -1,4 +1,6 @@
-package arrays.multiDimention;
+package classAndObject.constructor;
+
+import classAndObject.constructor.DebitCardClass;
 
 public class UsingDebitCard {
     public static void main(String[] args) {

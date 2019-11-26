@@ -68,12 +68,16 @@ public class Facebook {
         System.out.println("Your friend is" + numberOfFriend);
     }
 
+
+
     public boolean sendFriendRequest(Facebook obj) {
+
         if (this.numberOfFriend > 5000) {
             System.out.println("you have reach limit of friend");
             return false;
         } else if (obj.numberOfFriend >= 5000) {
             System.out.println(obj.name + " Has reach the limit of friends");
+            return false;
         } else {
             numberOfFriend++;
             obj.numberOfFriend++;
@@ -81,5 +85,6 @@ public class Facebook {
             return true;
         }
     }
+
 
 }

@@ -86,8 +86,3 @@ class Main {
         System.out.print(add.substring(0,add.length()-1));
     }
 }
-//
-//20
-//        90
-//        30
-//        10

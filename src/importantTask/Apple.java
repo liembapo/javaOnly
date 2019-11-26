@@ -8,29 +8,30 @@
 //        apple has 1 e
 package importantTask;
 
+import java.util.Arrays;
 import java.util.Scanner;
 
 public class Apple {
     public static void main(String[] args) {
-
-        Scanner input = new Scanner(System.in);
-        System.out.print("please enter the word  : ");
-        String word = input.nextLine();
-        String checked= " ";
-        for (int i = 0; i < word.length(); i++) {
-            char b = word.charAt(i);
-
-            int count = 0;
-            if(!checked.contains(b + "")) {
-                for (int j = 0; j < word.length(); j++) {
-                    if (b == word.charAt(j)) {
-                        count++;
-                    }
-                }
-                checked += word.charAt(i) + " ";
-//                System.out.println(checked);
-                System.out.println("the " + b + " coming for " + count + " times");
+    int [] arr = {1,9,19,99,999};
+        System.out.println(Arrays.toString(deleteR(arr,19)));
+    }
+    public static int[] deleteR(int[] arr,int element) {
+        int [] nu=new int [arr.length-1];
+        int a=0 ;
+        for (int i = 0;i<arr.length;i++){
+            if(arr[i] == element){
+                a=i;
             }
         }
+
+        for (int i = 0;i<a;i++){
+            nu[i]=arr[i];
+        }
+
+        for(int i = a+1 ; i<arr.length;i++){
+            nu[i-1]=arr[i];
+        }
+        return nu;
     }
 }

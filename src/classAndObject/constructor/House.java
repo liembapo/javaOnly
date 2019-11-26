@@ -1,4 +1,4 @@
-package classAndObject;
+package classAndObject.constructor;
 
 public class House {
     String type ;

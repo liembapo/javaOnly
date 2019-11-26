@@ -1,9 +1,11 @@
-package arrays.multiDimention;
+package classAndObject.constructor;
 
 public class Book {
     String name;
     String author;
     int pages;
+
+
     public Book() {
     }
 
@@ -21,3 +23,4 @@ public class Book {
     }
 
 }
+
