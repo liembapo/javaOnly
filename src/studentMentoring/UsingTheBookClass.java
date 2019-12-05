@@ -1,6 +1,6 @@
 package studentMentoring;
 
-import classAndObject.constructor.Book;
+import classAndObject.constructor.Books;
 
 import java.util.Scanner;
 
@@ -12,7 +12,7 @@ public class UsingTheBookClass {
         int numOfbook = in.nextInt();
         in.nextLine();
 
-        Book [] allBooks = new Book[numOfbook];
+        Books[] allBooks = new Books[numOfbook];
 
 
 
@@ -28,10 +28,10 @@ public class UsingTheBookClass {
 
             in.nextLine();
 
-            allBooks[i] = new Book(name,author,pages);
+            allBooks[i] = new Books(name,author,pages);
         }
 
-        for( Book book : allBooks){
+        for( Books book : allBooks){
 
             book.info();
         }

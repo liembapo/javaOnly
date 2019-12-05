@@ -27,6 +27,6 @@ public class Quiz {
 
         }else {
             System.out.println("Invalid username");}
-
+        System.gc();
     }
 }

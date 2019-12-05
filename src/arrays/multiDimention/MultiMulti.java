@@ -24,5 +24,6 @@ public class MultiMulti {
         nu[1] = nununu;
         nu[2] = nunununu;
         System.out.println(Arrays.deepToString(nu));
+        System.gc();
     }
 }

@@ -6,6 +6,7 @@ public class ReturnBiggestNum {
     int [][] nums = {{3,5,2,342,4,23},{43,32,4032,32,430000},{400000,43,23,23}};
         System.out.println(maxNum(nums));
         System.out.println(biggestIndex(nums));
+        System.gc();
     }
 
    public static int maxNum(int [][] nums) {

@@ -14,5 +14,6 @@ public class ggaga {
             }
         }
         System.out.println(Arrays.toString(new_r));
+        System.gc();
     }
 }

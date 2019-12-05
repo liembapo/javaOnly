@@ -32,5 +32,6 @@ public class HourGlass {
 
         }
         System.out.println(max);
+        System.gc();
     }
 }

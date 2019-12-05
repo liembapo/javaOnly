@@ -23,6 +23,7 @@ public class GroupEnter {
             class1[i] = group;
         }
         System.out.println(Arrays.deepToString(class1));
+        System.gc();
     }
 
 }
