@@ -1,5 +1,7 @@
 package loops;
+import methods.DataTransfer;
 
+import static methods.DataTransfer.goTo;
 import java.util.*;
 import java.util.Scanner;
 
@@ -26,5 +28,6 @@ public class Task1 {
             System.out.println("playing song number " + (songNum+1));
         }
 //        System.out.println(Arrays.toString(nums));
+
     }
 }

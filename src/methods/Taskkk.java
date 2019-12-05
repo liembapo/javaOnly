@@ -13,6 +13,8 @@ public class Taskkk {
 
         int c = firstChar(a,b);
 
+        DataTransfer.goTo("Odessa","Biskek");
+
 
 
 

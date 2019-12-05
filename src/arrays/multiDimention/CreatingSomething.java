@@ -12,6 +12,7 @@ public class CreatingSomething {
         System.out.println(sumDiag(nums));
         System.out.println(differenceOfSum(nums));
 //        System.out.println(Arrays.deepToString();
+        System.gc();
     }
 
     public static int[] [] createArray(int a,int b ){

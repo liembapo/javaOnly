@@ -11,6 +11,7 @@ public class Speaker {
 //        name.add(1,"john");
 //        System.out.println(name);
 //
+        System.gc();
         ArrayList<Cat>catsForSale = new ArrayList<>();  // new arraylist and empty
 
         Cat cat1 = new Cat();

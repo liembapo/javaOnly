@@ -6,8 +6,10 @@ public class WhileLoop {
 
         int i=1;
         while(i<=10) {
+
             System.out.println("this is loop no. " + i);
-            i++;
+
+
         }
     }
 }

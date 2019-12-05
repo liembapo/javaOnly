@@ -11,13 +11,14 @@ public class ForLoopTraditionalNestedOne {
 
         int temp;
         for (int i = 0; i < array.length ; i++) {
-            for (int j = 1; j < array.length ; j++) {
-                if (array[j] < array[j - 1]) {
-                    temp = array[j - 1];
-                    array[j - 1] = array[j];
-                    array[j] = temp;
+            for (int j = 0; j < array.length ; j++) {
+                if (i == 2 ) {
+
+                    break;
                 }
+                System.out.println("your name is doka");
             }
+            System.out.println("my name is bobby");
         }
         System.out.println(Arrays.toString(array));
 

@@ -15,6 +15,6 @@ public class AddingItem {
 
         shell.seeInventory();
         System.out.println("\n" +shell.numOfItem);
-
+System.gc();
     }
 }

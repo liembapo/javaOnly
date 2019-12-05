@@ -10,4 +10,5 @@ public class Cat {
     public void sleeping(){
         System.out.println("cat is sleeping");
     }
+
 }

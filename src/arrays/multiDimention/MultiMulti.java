@@ -4,6 +4,7 @@ import java.util.Arrays;
 
 public class MultiMulti {
     public static void main(String[] args) {
+        System.gc();
 //        Create a 2D int array that has 3 inner arrays with some initial values. Print out the length of each inner array.
 //> Given int array of [[4,2,3], [3232,11,13, 4, 2], [23,13]]
 //        Length of row 1: 3
