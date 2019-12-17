@@ -21,6 +21,6 @@ public class Quiz8point5 {
         int num = Integer.valueOf(word);
 
         System.out.println("In 5 years you will be " + (num+5)+ " years old");
-
+System.gc();
     }
 }

@@ -17,5 +17,10 @@ public class UsingOurObjectFlag {
 
         System.out.println("\n");
         f1.upgradeFlag(9,"Wool");
+        BankAccount bank = new BankAccount();
+
+//        BankAccount.deposit(123);
+        System.gc();
+
     }
 }

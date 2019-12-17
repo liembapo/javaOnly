@@ -10,27 +10,36 @@
 //        Type: %type
 //        Account Number: %accountNumber
 package classAndObject;
+import java.util.*;
 
 public class BankAccount {
     String type;
     int accoungNumber;
     double balance;
-    String holderName;
+     String holderName;
 
-    public void deposit(double moneyComesIn){
+    public  void deposit(double moneyComesIn){
+
 
         balance += moneyComesIn;
         System.out.println("$"+moneyComesIn + " is deposited to your account");
     }
     public void transfer(double transferMoney){
+        Scanner scan = new Scanner(System.in);
+        System.out.println("u have to deposit first");
+        double money = scan.nextDouble();
+        deposit(money);
+        
+
         if(balance>transferMoney) {
             System.out.println("$"+transferMoney + " is transfered from your bank account");
             balance -= transferMoney;
         }else {
             System.out.println("Your balance is not enough to do this transaction");
         }
+
     }
-    public void infoBank(){
+    public  void infoBank(){
         System.out.println("Holder Name: " + holderName);
         System.out.println("Balance: $" + balance);
         System.out.println("Type : "+ type);
